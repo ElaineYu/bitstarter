@@ -15,6 +15,28 @@
          padding-top: 60px;
         }
 
+      /* All form factors */
+
+      /* Main body and headings */
+      body{
+        font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+      }
+      .heading, .subheading {
+        font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+        text-align: center;
+      }
+      p.lead {
+        padding-top: 1.5%;
+        font-size: 24px;
+        line-height: 30px;
+      }
+      p {
+        font-size: 18px;
+        line-height: 24px;
+      }
+
+
+
     <!-- Mobile-friendly navbar adapted from example. -->
     <!-- http://twitter.github.io/bootstrap/examples/starter-template.html -->
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -37,27 +59,22 @@
 	</div>
       </div>
     </div>
+
+    <!-- We use row-fluid inside containers to achieve a resizable layout -->
+    <!-- blogs.endjin.com/2013/04/tips-for-implementing-responsive-designs-using-bootstrap/ -->
+    <!-- http://stackoverflow.com/a/12270322 -->
+    <div class="container">
+      <!-- Font and paired font of .heading/.subheading and body from Google Fonts --> 
+      <!-- www.google.com/fonts/specimen/Ubuntu --> 
+      <!-- www.google.com/fonts/specimen/Ubuntu#pairings -->
+      <div class="row-flud heading">
+	<div class="span12">
+	  <h1>Product</h1>
+	</div>
+      </div>
+     
+
     
-    /* All form factors */
-
-    /* Main body and headings */
-    body{
-      font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-    }
-    .heading, .subheading {
-      font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
-      text-align: center;
-    }
-    p.lead {
-      padding-top: 1.5%;
-      font-size: 24px;
-      line-height: 30px;
-    }
-    p {
-      font-size: 18px;
-      line-height: 24px;
-    }
-
 
 
 
